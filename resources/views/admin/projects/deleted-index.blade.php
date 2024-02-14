@@ -34,7 +34,7 @@
                                 </td>
                                 </a>
 
-                                <td>{{ $project->author }}</td>
+                                <td>{{ $project->user_id }}</td>
                                 <td>{{ substr($project->description, 0, 50) }}...</td>
                                 <td>{{ $project->date }}</td>
 

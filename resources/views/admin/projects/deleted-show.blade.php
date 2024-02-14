@@ -20,7 +20,7 @@
                 </p>
 
 
-                <p>{{ $project->author }}</p>
+                <p>{{ $project->user_id }}</p>
                 <p>{{ $project->description }}</p>
                 <p>{{ $project->date }}</p>
 

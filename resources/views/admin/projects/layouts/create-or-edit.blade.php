@@ -26,9 +26,9 @@
                     </div>
 
                     <div class="mb-3 input-group">
-                        <label for="author" class="input-group-text"> Author:</label>
-                        <input class="form-control" type="text" name="author" id="author"
-                            value="{{ old('author', $project->author) }}">
+                        <label for="user_id" class="input-group-text"> Author:</label>
+                        <input class="form-control" type="number" name="user_id" id="user_id"
+                            value="{{ old('user_id', $project->user_id) }}">
                     </div>
 
                     <div class="mb-3 input-group">

@@ -18,14 +18,14 @@
                 </p>
 
 
-                <p>{{ $project->author }}</p>
+                <p>{{ $project->user->name }}</p>
                 <p>{{ $project->description }}</p>
                 <p>{{ $project->date }}</p>
 
                 <p>
 
 
-                   
+
                 </p>
 
             </div>
